@@ -10,7 +10,7 @@ function sumarPuntos() {
     randNum2 = Math.round(Math.random() * 500);
     document.getElementById("player").style.marginTop =randNum + "px";
     document.getElementById("player").style.marginLeft =randNum2 + "px";
-    if(puntos == 30) {
+    if(puntos == necesarios) {
         alert("You Won!")
         tiempo = 60
         puntos = 0
